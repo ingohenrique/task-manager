@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[oc]
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Git
+.git/
+.gitignore
+
+# Documentation
+README.md
+*.md
+
+# Testing
+tests/
+*.db
+test_*.db
+
+# Development
+Makefile
+.python-version
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node.js (if building frontend separately)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
